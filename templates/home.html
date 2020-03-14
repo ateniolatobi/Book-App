@@ -10,10 +10,5 @@
     />
     {% if user.is_authenticated %}
         <h3>Hi {{user.email}}, Bienvenido Aqui</h3>
-        <a href="{% url 'logout' %}">Click the link to logout</a>
-    {% else %} 
-        Click the link below to login or signup
-        <a href="{% url  'login' %}">Click to Login</a>
-        <a href="{% url  'signup' %}">Click to Signup</a>
     {% endif %} 
 {% endblock content %}
