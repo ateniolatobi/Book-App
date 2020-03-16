@@ -166,3 +166,4 @@ STATICFILES_FINDER = [
 
 
 AUTH_USER_MODEL = 'users.CustomUser'
+DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
